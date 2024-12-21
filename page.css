@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.banner {
+    height: 400px;
+    background-image: url(./Img/headImage.jpg);
+}
+
+
+.info {
+    display: flex;
+}
