@@ -1,18 +1,60 @@
 * {
     margin: 0;
     padding: 0;
+    justify-content: center;
+}
+body {
+    justify-content: center;
 }
 
-p {
+.info p {
     margin-left: 20px;
 }
 
+hr {
+    min-width: 70em;
+    width: 75%;
+    margin: 1em auto;
+}
+
 .banner {
-    height: 400px;
-    background-image: url(./Img/headImage.jpg);
+    max-width: 80em;
+    height: 7em;
+    margin: auto;
+    justify-content: center;
+    background: url(./Img/headImage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
 }
 
 
 .info {
+    margin: auto;
     display: flex;
+    max-width: 70em;
+    justify-content: center;
+}
+
+.image {
+    max-height: 40em;
+}
+
+.random {
+    max-width: 70em;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.random h3{
+    text-align: center;
+}
+
+.button-center {
+    width:fit-content;
+    margin: auto;
+}
+
+#fact {
+    text-align: center;
 }
