@@ -7,6 +7,12 @@ body {
     justify-content: center;
 }
 
+h1 {
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+}
+
 .info p {
     margin-left: 20px;
 }
@@ -19,6 +25,7 @@ hr {
 
 .banner {
     max-width: 80em;
+    padding-top: 5px;
     height: 7em;
     margin: auto;
     justify-content: center;
@@ -54,6 +61,8 @@ hr {
     width:fit-content;
     margin: auto;
 }
+
+button {}
 
 #fact {
     text-align: center;

@@ -19,6 +19,7 @@ window.onload = function () {
 
         if (currentText !== randomFacts[index]) {
             text.innerHTML = randomFacts[index];
+            button.innerHTML = 'click again to see another';
         } else {
             change();
         }
